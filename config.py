@@ -15,8 +15,8 @@ class Config:
     MAIL_SERVER = 'smtp.googlemail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
-    MAIL_USERNAME = os.environ.get('MAIL_USERNAME') or 'bastidas.alexei@gmail.com'
-    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') or 'Gu6itoh3if3r'
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME') 
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD') 
     MAIL_SUBJECT_PREFIX = '[alexeibastidas]'
     MAIL_SENDER = 'alexeibastidas-blog admin <admin@alexeibastidas.com>'
 
